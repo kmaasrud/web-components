@@ -59,7 +59,7 @@ body {
 
 /* IMAGES */
 /* Images in content */
-.content img {
+#content img {
   display: block;
   margin: 0px auto;
   width: 90%;
