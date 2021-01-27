@@ -80,9 +80,9 @@ body {
 
 /* CODE */
 pre {
-  background-color: rgba(130, 130, 130, 0.1);
+  background-color: var(--codeblock-bg);
   padding: 18px;
-  border-left: 2px solid var(--codeblock-bg);
+  border: 2px solid var(--tertiary-bg);
   border-radius: 8px;
   font-size: 14px;
 }
