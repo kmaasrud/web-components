@@ -56,3 +56,12 @@ body {
     width: 100%;
     overflow: hidden;
 }
+
+/* IMAGES */
+/* Images in content */
+.content img {
+  display: block;
+  margin: 0px auto;
+  width: 90%;
+  height: auto;
+}
