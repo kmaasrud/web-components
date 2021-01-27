@@ -3,7 +3,9 @@ body {
     --secondary-fg: rgb(50, 50, 50);
 
     --primary-bg: rgb(255, 255, 255);
-    --tertiary-bg: rgb(196, 196, 196);
+    --secondary-bg: rgb(225, 225, 225);
+    --tertiary-bg: rgb(200, 200, 200);
+    --codeblock-bg: rgb(31, 40, 49);
     
     --primary-accent: rgb(110, 197, 255);
 }
@@ -13,7 +15,9 @@ body.dark-mode {
     --secondary-fg: rgb(235, 235, 235);
 
     --primary-bg: rgb(16, 21, 26);
-    --tertiary-bg: rgb(66, 66, 66);
+    --secondary-bg: rgb(25, 33, 41);
+    --tertiary-bg: rgb(31, 40, 49);
+    --codeblock-bg: rgb(31, 40, 49);
 
     --primary-accent: rgb(32, 85, 121);
 }
@@ -77,9 +81,9 @@ body {
 /* CODE */
 pre {
   background-color: rgba(130, 130, 130, 0.1);
-  padding: 20px;
-  border-left: 5px solid var(--primary-accent);
-  border-radius: 0px 10px 10px 0px;
+  padding: 18px;
+  border-left: 2px solid var(--codeblock-bg);
+  border-radius: 8px;
   font-size: 14px;
 }
 pre code {
