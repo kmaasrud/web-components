@@ -72,6 +72,9 @@ body.dark-mode #night-mode {
     width: 100%;
     overflow: hidden;
 }
+#content p {
+    font-size: 17px;
+}
 
 
 /* LINKS */
