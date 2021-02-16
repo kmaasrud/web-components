@@ -1,3 +1,7 @@
+:root {
+    --transition-length: 150ms;
+}
+
 body {
     --primary-fg: rgb(30, 30, 30);
     --secondary-fg: rgb(50, 50, 50);
@@ -6,7 +10,7 @@ body {
     --secondary-bg: rgb(225, 225, 225);
     --tertiary-bg: rgb(200, 200, 200);
     --codeblock-bg: rgb(31, 40, 49);
-    
+
     --primary-accent: rgb(110, 197, 255);
 }
 
@@ -67,6 +71,18 @@ body {
 #content {
     width: 100%;
     overflow: hidden;
+}
+
+
+/* LINKS */
+a {
+  position: relative;
+  color: rgb(var(--primary-fg));
+  text-decoration-color: rgb(var(--primary-fg));
+  transition: text-decoration-color var(--transition-length);
+}
+a:hover {
+  text-decoration-color: rgba(var(--primary-fg), 0.0);
 }
 
 /* IMAGES */
