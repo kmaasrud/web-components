@@ -77,12 +77,12 @@ body {
 /* LINKS */
 a {
   position: relative;
-  color: rgb(var(--primary-fg));
-  text-decoration-color: rgb(var(--primary-fg));
+  color: var(--primary-fg);
+  text-decoration-color: var(--primary-fg);
   transition: text-decoration-color var(--transition-length);
 }
 a:hover {
-  text-decoration-color: rgba(var(--primary-fg), 0.0);
+  text-decoration-color: rgba(0,0,0,0);
 }
 
 /* IMAGES */
