@@ -63,7 +63,7 @@ body {
     transform: rotate(30deg);
 }
 
-#night-mode.selected {
+body.dark-mode #night-mode {
     font-weight: 900;
     color: var(--primary-fg);
 }
